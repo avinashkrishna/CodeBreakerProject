@@ -13,7 +13,7 @@ function guess() {
     }
 
     if (!validateInput(input.value)) {
-        return;
+        return false;
     }
     attempt.value++;
 
